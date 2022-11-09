@@ -1,0 +1,39 @@
+<!-- João precisa de um sistema que solicite o numero de inicio
+e o número final da operação
+faça um programa que mostre somente os número pares entre os números digitados
+
+Exemplo de execução:
+Digite o primeiro number:
+1
+
+Digite numero final:
+
+10
+
+irá mostrar os valores:
+
+2
+4
+6
+8
+10
+
+10 % 2 == 0  // é par --> 
+
+<script>
+let x = parseInt(prompt("Digite o primeiro número"));
+let y = parseInt(prompt("Agora, digite o segundo número"));
+
+
+function pares(x, y) {
+    while (x <= y) {
+      if (x % 2 == 0) {
+        console.log(x);
+        
+      }
+	  x++;
+    }
+  }
+  pares(x, y);
+
+</script>
